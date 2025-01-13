@@ -49,9 +49,23 @@
     font-size: 14px;
     padding-top: 25px;
 }
-.main-text-container p{
+.main-text-container-p{
     margin-bottom: 15px;
     font-size: 16px; 
+}
+.sale{
+    background-color: rgb(232,14,14);
+    letter-spacing: 5px;
+    top: -20px;
+    left: -40px;
+    position: absolute;
+    color: white;
+    width: 80px;
+    height: 20px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 .main-text-container a{
     color: black;
@@ -116,18 +130,4 @@
 }
 .btn-container:hover{
     background-color: rgb(153,152,150);
-}
-.btn-top{
-    background-color: rgb(232,14,14);
-    letter-spacing: 5px;
-    top: -20px;
-    left: -40px;
-    position: absolute;
-    color: white;
-    border: none;
-    width: 80px;
-    height: 40px;
-    padding: 5px;
-    font-size: 14px;
-    font-weight: bold;
 }
